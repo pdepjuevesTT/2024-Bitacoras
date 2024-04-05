@@ -26,10 +26,10 @@ Fecha: 04/04/2024
  <br>
  
 ### Ejercicios para practicar
-- [Pinos](https://docs.google.com/document/d/1UTh1H0QDJ75pVPRBcUg6RLnBS6kr37qW5LNxLgwch9Q/edit?usp=sharing)
+- [Pinos](https://docs.google.com/document/d/1UTh1H0QDJ75pVPRBcUg6RLnBS6kr37qW5LNxLgwch9Q/edit?usp=sharing): Les dejamos la [resolución](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/EjercicioPinos.hs).
 - [Acme](https://docs.google.com/document/d/1L5d971xBeB0stmGZNOUQ5hcGApC6IEXSgpuGgFT_bDw/edit?usp=sharing)
 
-Les dejamos estos ejercicios para que vayan practicando! Ante cualquier consulta que les surja resolviendolos recuerden que tenemos el canal de discord yyy la resolución la habilitamos la clase que viene.
+Les dejamos estos ejercicios para que vayan practicando! Ante cualquier consulta que les surja resolviendolos recuerden que tenemos el canal de discord yyy la resolución de ACME después de charlarlo la clase que viene.
 
 <br>
 Buena semana!
