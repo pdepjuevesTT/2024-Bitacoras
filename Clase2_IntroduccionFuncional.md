@@ -15,7 +15,7 @@ Fecha: 04/04/2024
 <br>
   
   - [x] ***Laboratorio:***
-    - [Código y ejercicios vistos](./blob/main/Funcional%20-%20funciones%20basicas.hs)
+    - [Código y ejercicios vistos](./Funcional%20-%20funciones%20basicas.hs)
       
       <br>
   ### La próxima clase
