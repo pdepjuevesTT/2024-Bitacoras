@@ -15,7 +15,7 @@ Fecha: 04/04/2024
 <br>
   
   - [x] ***Laboratorio:***
-    - [Código y ejercicios vistos](./Funcional%20-%20funciones%20basicas.hs)
+    - [Código y ejercicios vistos](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Funcional%20-%20funciones%20basicas.hs)
       
       <br>
   ### La próxima clase
