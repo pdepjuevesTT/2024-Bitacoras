@@ -16,3 +16,4 @@ Fecha: 11/04/2024
  
 ### Ejercicios para practicar
 - [Resolución Acme](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Acme.hs) prometida la semana pasada ;)
+- [Gran Elenco](https://docs.google.com/document/d/1dYsun2V-b6ZE-z_h5c1vgUvw1i79jsL2g1whyj5mFO0/edit)
