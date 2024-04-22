@@ -1,7 +1,7 @@
 --------------------------------------- Dominio ---------------------------------------
-type Edad = Number
+type Edad = Int
 type Nombre = String
-type Felicidonios = Number
+type Felicidonios = Int
 type Sueño = String
 
 
@@ -13,7 +13,7 @@ data Persona = UnaPersona{
 }
 
 ------------------------------ Coeficiente de satisfaccion ------------------------------
-type Coeficiente = Number
+type Coeficiente = Int
 coeficienteDeSatisfaccion :: Persona -> Coeficiente
 coeficienteDeSatisfaccion persona 
     |felicidonios persona > 50 && felicidonios persona <= 100 = moderadamenteFeliz persona
@@ -26,7 +26,7 @@ muyFeliz persona = felicidonios persona * edad persona
 moderadamenteFeliz :: Persona -> Coeficiente
 moderadamenteFeliz persona = cantidadDeSueños persona * felicidonios persona
 
-type Cantidad = Number
+type Cantidad = Int
 cantidadDeSueños :: Persona -> Cantidad
 cantidadDeSueños persona = length (sueños persona)
 
@@ -38,7 +38,7 @@ pocoFeliz = 40
 nombreLargo :: Persona -> Bool
 nombreLargo persona = longitudNombre persona > 10
 
-type Longitud = Number
+type Longitud = Int
 longitudNombre :: Persona -> Longitud
 longitudNombre persona = length (nombre persona)
 
