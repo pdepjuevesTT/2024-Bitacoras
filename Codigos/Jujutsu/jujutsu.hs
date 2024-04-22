@@ -1,6 +1,6 @@
 ----------------------------------- Punto 1 -----------------------------------
-type Antigüedad = Number
-type Grado = Number
+type Antigüedad = Int
+type Grado = Int
 type Clan = String
 
 data Hechicero = UnHechicero {
@@ -30,7 +30,7 @@ type Equipo = [Hechicero]
 equipoPreparado :: Equipo -> Bool
 equipoPreparado equipo = cantidadIntegrantes equipo > 3
 
-type Cantidad = Number
+type Cantidad = Int
 cantidadIntegrantes :: Equipo -> Cantidad
 cantidadIntegrantes = length
 
@@ -85,10 +85,10 @@ elMasApto nivel hechicero1 hechicero2
     |otherwise = hechicero2
 
 
-type Nivel = Number
+type Nivel = Int
 
 nivelTryhard :: Hechicero -> Nivel
-nivelTryhard hechicero = 1/ (grado hechicero + 1)
+nivelTryhard hechicero = div 1 (grado hechicero + 1)
 
 nivelBurogratico :: Hechicero -> Nivel
 nivelBurogratico hechicero = length (clan hechicero)
