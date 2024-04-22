@@ -34,7 +34,7 @@ comida9 = ("Limonada", Bebida)
 comida10 :: Comida
 comida10 = ("Agua", Bebida)
 
-type Precio = Number
+type Precio = Int
 
 calcularPrecio :: Comida -> Precio
 calcularPrecio (nombre, PlatoPrincipal) = length nombre * 50
@@ -45,7 +45,7 @@ calcularPrecio (nombre,_) = length nombre *10
 
 --Costo almuerzo-----------------------------------------------------------------------
 type Almuerzo = [Comida]
-type PrecioAlmuerzo = Number
+type PrecioAlmuerzo = Int
 
 importeBase :: Almuerzo -> PrecioAlmuerzo
 importeBase almuerzo = sum (obtenerListadoPrecios almuerzo)
@@ -56,13 +56,13 @@ obtenerListadoPrecios :: Almuerzo -> ListadoPrecios
 obtenerListadoPrecios = map calcularPrecio
 
 -- Opciones de Propina -----------------------------------------------------------------------
-type Propina =Number
+type Propina =Int
 
 clasico :: PrecioAlmuerzo -> Propina
-clasico costoComida = costoComida*0.1
+clasico costoComida = (costoComida * 10) `div` 100
 
 tioCarlos :: PrecioAlmuerzo -> Propina
-tioCarlos costoComida = clasico costoComida/2
+tioCarlos costoComida = clasico costoComida `div` 2
 
 conservador :: PrecioAlmuerzo -> Propina
 conservador costoComida
@@ -73,17 +73,18 @@ noCreyente :: PrecioAlmuerzo -> Propina
 noCreyente _ = 0
 
 recurrente :: PrecioAlmuerzo -> Propina
-recurrente costoComida = costoComida*0.2
+recurrente costoComida = (costoComida * 20) `div` 100
 
 generoso :: PrecioAlmuerzo -> Propina
 generoso _ = 200
 
+
 -- Calculo de pago total -----------------------------------------------------------------------
-type PagoFinal = Number
+type PagoFinal = Int
 importeTotal :: Almuerzo -> TipoDeCliente -> PagoFinal
 importeTotal almuerzo tipoCliente = calcularPrecioConPropina (importeBase almuerzo) tipoCliente
 
 type TipoDeCliente = PrecioAlmuerzo -> Propina
-type PagoConPropina = Number
+type PagoConPropina = Int
 calcularPrecioConPropina :: PrecioAlmuerzo-> TipoDeCliente -> PagoConPropina
 calcularPrecioConPropina costoComida propinaCliente = costoComida + propinaCliente costoComida
