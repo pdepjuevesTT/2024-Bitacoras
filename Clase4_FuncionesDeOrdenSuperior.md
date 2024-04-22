@@ -29,6 +29,6 @@ Fecha: 18/04/2024
  
 ### Ejercicios para practicar
   -  [Resolución de Gran Elenco]()
-  -  Repaso de Estructuras: [Fuente de los deseos]() con [resolución]()
-  -  Práctica orden superior: [Jujutsu Haskell]() con [resolución]()
-  -  Más práctica de orden superior: [Propinas]() 
+  -  Repaso de Estructuras: [Fuente de los deseos](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Fuente%20de%20los%20deseos/README.md) con [resolución](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Fuente%20de%20los%20deseos/FuenteDeseos.hs)
+  -  Práctica orden superior: [Jujutsu Haskell](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Jujutsu/README.md) con [resolución](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Jujutsu/jujutsu.hs)
+  -  Más práctica de orden superior: [Propinas](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Propinas/README.md) con [resolución](https://github.com/pdepjuevesTT/2024-Bitacoras/tree/main/Codigos/Propinas)
