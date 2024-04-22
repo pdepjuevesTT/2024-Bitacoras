@@ -40,7 +40,7 @@ ultimaActuacion = last . actuaciones
 actuoEnMasDeXPeliculas :: Int -> Persona -> Bool
 actuoEnMasDeXPeliculas valor persona = length (actuaciones persona) > valor
 
-tuvoMasDeXValoracion :: Int -> actuacion -> Bool
+tuvoMasDeXValoracion :: Int -> Actuacion -> Bool
 tuvoMasDeXValoracion valor actuacion = valoracion actuacion >= valor
 
 esUnaPeliculaPremiada :: Actuacion -> Bool
