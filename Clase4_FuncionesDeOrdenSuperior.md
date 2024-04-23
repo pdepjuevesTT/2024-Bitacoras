@@ -11,7 +11,7 @@ Fecha: 18/04/2024
 <br>
   
 - [x] ***Laboratorio:***
-  - [Código y ejercicios vistos]() Próximamente...
+  - [Código y ejercicios vistos](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/ordenSuperior.hs) 
 
  <br>
  
