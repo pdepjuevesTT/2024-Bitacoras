@@ -10,8 +10,9 @@ Fecha: 18/04/2024
 
 <br>
   
-- [x] ***Laboratorio:***
-  - [Código y ejercicios vistos](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/ordenSuperior.hs) 
+- [x] ***Ejemplos de clase:***
+  - [Repaso estructuras](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/personas.hs) 
+  - [Orden superior](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/ordenSuperior.hs) 
 
  <br>
  
