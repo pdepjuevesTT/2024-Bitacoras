@@ -12,7 +12,7 @@ Fecha: 25/04/2024
   
 - [x] ***Código visto en clase:***
   - [Repaso orden superior, composición y aplicación parcial]() próximamente...
-  - [Resolución parte 1 TP grupal]) próximamente..
+  - [Resolución parte 1 TP grupal]() próximamente..
 
  <br>
  
