@@ -1,16 +1,16 @@
 ------------------------------------- Punto 1 -------------------------------------
-type HorasDeEntrenamiento = Number
+type HorasDeEntrenamiento = Int
 type Objetivo = String
-type Presion = Number
+type Presion = Int
 
 presionGolpe :: HorasDeEntrenamiento -> Objetivo -> Presion
-presionGolpe horasDeEntrenamiento objetivo = poderGolpe horasDeEntrenamiento / fortalezaObjetivo objetivo
+presionGolpe horasDeEntrenamiento objetivo = poderGolpe horasDeEntrenamiento `div` fortalezaObjetivo objetivo
 
-type Poder = Number
+type Poder = Int
 poderGolpe :: HorasDeEntrenamiento -> Poder
 poderGolpe = (*15) -- aplicacion parcial de la funcion *
 
-type Fortaleza = Number
+type Fortaleza = Int
 fortalezaObjetivo :: Objetivo -> Fortaleza
 fortalezaObjetivo = (*2).length -- composicion
 
@@ -32,5 +32,5 @@ esAccesible = (between 200 400).golpesNormalesConsecutivos.focalizar
 focalizar :: Objetivo -> Objetivo
 focalizar = take 7
 
-between :: Number -> Number -> Number -> Bool
+between :: Int -> Int -> Int -> Bool
 between menor mayor nro = nro > menor && nro < mayor
