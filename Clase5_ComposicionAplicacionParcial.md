@@ -24,7 +24,7 @@ Fecha: 25/04/2024
   <br>
 
   ❗16/05/2024
-  - [x] ***Tarea:*** Hacer parte 2el TP grupal
+  - [x] ***Tarea:*** Hacer parte 2 del TP grupal
      -  [Consigna](https://docs.google.com/document/d/1zS67A3HqG9B_kj-22Rv6kJ3NEjHFJRUG2G-4mzjFmNQ/edit) Se sube en el mismo repo de la primera parte. 
     - Material que podría ser de ayuda:
       - 🎬 [Video: Reducción - Fold en Haskell](https://www.youtube.com/watch?v=veiQkxz59NE) (30min)
