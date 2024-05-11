@@ -35,6 +35,7 @@ Fecha: 25/04/2024
 ### Ejercicios para practicar
   - Ejercicio corto [Técnicas de combate](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Tecnicas%20de%20combate/README.md) con [resolución](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Tecnicas%20de%20combate/codigo.hs)
   - Ejercicio corto [Cuántas muzzas](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Muzzas/README.md) con [resolución](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Muzzas/codigo.hs)
-  - [Artistas exitosos]() próximamente
   - [Hora de Lectura](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Hora%20de%20lectura/README.md) con [resolución](https://github.com/pdepjuevesTT/2024-Bitacoras/blob/main/Codigos/Hora%20de%20lectura/HoraDeLectura.hs)
   - [Monopoly](https://docs.google.com/document/d/18FWmeYngha8WlcDgUfYuR4emF6ScEBFIgOlc1UoKQa0/edit) con resolución en [video](https://www.youtube.com/watch?v=lXsX8wsR7AI)
+- ⭐️ _Nuevo_ [Artistas exitosos](https://docs.google.com/document/d/1SYAxO5uF5Ylmc2RvysjEMS33NSauugz8E_xO5ec0Qmg/edit)
+- ⭐️ _Nuevo_ [Inmobiliaria](https://docs.google.com/document/d/e/2PACX-1vRluMJi1uEVHvGh-c8PAq82yVUqjyHMVwhHWIW3G2CRVmferWQeE59Vpwqmmtvhew-UueX2rdvKALLD/pub) con resolución en [video](https://www.youtube.com/watch?v=-JLsFLJt0Mk&list=PL7wy4vA6RpN51gkoPaU6xmtg7KkZy2aHG&index=7&ab_channel=ParadigmasdeProgramaci%C3%B3n-JuevesNoche)
