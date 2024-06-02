@@ -2,9 +2,9 @@
 --1) Modelado Estructuras
 
 type Nombre = String
-type Durabilidad = Number
-type Escudo = Number
-type Ataque = Number
+type Durabilidad = Int
+type Escudo = Int
+type Ataque = Int
 type Poder = Nave -> Nave
 
 data Nave = UnaNave {
@@ -13,8 +13,7 @@ data Nave = UnaNave {
     escudo :: Escudo,
     ataque :: Ataque,
     poder :: Poder
-} deriving (Show, Eq)
-
+}
 
 tieFighter :: Nave
 tieFighter = UnaNave "TIE Fighter" 200 100 50 movimientoTurbo
@@ -27,14 +26,6 @@ naveDeDarthVader = UnaNave "Nave de Darth Vader" 500 300 200 superTurbo
 
 millenniumFalcon :: Nave
 millenniumFalcon = UnaNave "Millennium Falcon" 1000 500 50 poderFalcon
-
---Mi nave 
-melian :: Nave
-melian = UnaNave "Melian" 100 100 100 superReparacion
-
-superReparacion :: Poder
-superReparacion = reparacionEmergencia.reparacionEmergencia
-
 
 --- Poderes
 movimientoTurbo :: Poder
@@ -49,22 +40,22 @@ superTurbo = efectoEnDurabilidad (-45) . movimientoTurbo.movimientoTurbo.movimie
 poderFalcon :: Poder
 poderFalcon = reparacionEmergencia.efectoEnEscudos 100
 
-type Efecto = Number
+type Efecto = Int
 efectoEnAtaque :: Efecto -> Nave -> Nave
-efectoEnAtaque efecto nave = nave {ataque = max(ataque nave + efecto)0}
+efectoEnAtaque efecto nave = nave {ataque = max(ataque nave + efecto) 0}
 
 efectoEnDurabilidad :: Efecto -> Nave -> Nave
-efectoEnDurabilidad efecto nave = nave {durabilidad = max(durabilidad nave + efecto)0}
+efectoEnDurabilidad efecto nave = nave {durabilidad = max(durabilidad nave + efecto) 0}
 
 efectoEnEscudos :: Efecto -> Nave -> Nave
-efectoEnEscudos efecto nave = nave {escudo =max(escudo nave + efecto)0}
+efectoEnEscudos efecto nave = nave {escudo = max(escudo nave + efecto) 0}
 
 
 -----------------------------------------------------------------------------------------
 -- 2) Durabilidad de una Flota
 
 type Flota = [Nave]
-type Duracion = Number
+type Duracion = Int
 
 durabilidadTotal :: Flota -> Duracion
 durabilidadTotal = sum.map durabilidad
@@ -80,18 +71,18 @@ activarPoder nave = poder nave nave
 
 type Atacante = Nave
 type Atacada = Nave
-type Danio = Number
+type Danio = Int
 
 danioRecibido :: Atacante -> Atacada -> Danio
 danioRecibido atacante atacada
-    |escudo atacada>ataque atacante = 0
+    |escudo atacada > ataque atacante = 0
     |otherwise = ataque atacante - escudo atacada
 
 ------------------------------------------------------------------------------------------
 --4) Nave fuera de combate 
 
 estaFueraDeCombate :: Nave -> Bool
-estaFueraDeCombate = (==0).durabilidad
+estaFueraDeCombate = (== 0).durabilidad
 
 -------------------------------------------------------------------------------------------
 --5) Misiones
@@ -114,18 +105,12 @@ type Estrategia = Nave -> Bool
 naveDebil :: Estrategia
 naveDebil = (<200).escudo
 
-type Peligrosidad = Number
+type Peligrosidad = Int
 naveConPeligrosidad :: Peligrosidad -> Estrategia
 naveConPeligrosidad peligrosidad= (>peligrosidad).ataque
 
 naveFueraDeCombate :: Atacante -> Estrategia
 naveFueraDeCombate atacante = estaFueraDeCombate. naveAtacada atacante
-
---mi estrategia: se ataca a la nave de Darth Vader
-
-esNaveDarthVader :: Estrategia
-esNaveDarthVader = (=="Nave de Darth Vader").nombre
-
 
 -------------------------------------------------------------------------------------------
 --6) Eleccion de Estrategias
