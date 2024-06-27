@@ -4,9 +4,9 @@ Fecha: 27/06/2024
 ### La clase de hoy:
 - [x] ***Material que acompaña y complementa lo visto hoy:***
   - 🔗 [Apunte sobre inversibilidad](https://wiki.uqbar.org/wiki/articles/paradigma-logico---inversibilidad.html)
-  - 📄 [Machete de nomenclatura](https://docs.google.com/document/d/1_alxG1fgZHQuuIOPeIVMJ4aRwIyTAPaDR3uuI1R3oJk/edit)
   - 📄 [Predicados de orden superior: Forall](https://docs.google.com/document/d/1GGair_St5yWvItKRZH-FY_X2CdDREr60TrsV0zSiO5I/edit) (menos findall).
   - 🔗 [Forall](https://wiki.uqbar.org/wiki/articles/paradigma-logico---el-forall.html)
+  - 📄 [Machete de nomenclatura](https://docs.google.com/document/d/1_alxG1fgZHQuuIOPeIVMJ4aRwIyTAPaDR3uuI1R3oJk/edit)
      <br>
      
 - [x] ***Códigos:***
