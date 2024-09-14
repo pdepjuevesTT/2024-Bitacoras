@@ -12,7 +12,7 @@ Fecha: 12/09/2024
 ### La próxima clase:
  - [x] ***Tarea -> Trabajo grupal para el 19 Septiembre***
     - [Enunciado del TP: La Tierra Media](https://docs.google.com/document/d/1S0OYbXEsyNDlcp0kqjiJmr3jUEOcKJToe0p5KeKOVXQ/edit#heading=h.h636er2gpslw)
-    - [Classroom](https://classroom.github.com/a/O3EOhkbw) 
+    - [Classroom](https://classroom.github.com/a/TJ8DKy7t) 
        
      <br>
  - [x] **Material sugerido para la proxima clase:**
